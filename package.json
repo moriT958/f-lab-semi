@@ -1,0 +1,25 @@
+{
+  "name": "work-tracker-app",
+  "version": "1.0.0",
+  "description": "勤務記録管理アプリ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:debug": "playwright test --debug"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "typescript": "^5.9.3"
+  }
+}
