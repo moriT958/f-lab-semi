@@ -1,5 +1,7 @@
 node_modules/
 .DS_Store
 records.db
+records.db-journal
 勤務記録.csv
 playwright-report/
+test-results/
